@@ -1,0 +1,50 @@
+.icon-bar{
+    width: 90px;
+    background-color: #555;
+}
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover{
+    background-color: #000;
+}
+
+.active{
+    background-color: #238fca;
+}
+
+/* ************************************************************ */
+.divider{
+    padding: 30px;
+}
+/* ************************************************************ */
+
+.icon-bar2{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar2 a{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3 ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar2 a:hover{
+    background-color: rgb(18, 17, 17);
+}
+
+.active{
+    background-color: blue;
+}
